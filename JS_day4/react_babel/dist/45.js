@@ -1,0 +1,1 @@
+(self.webpackChunkreact_babel=self.webpackChunkreact_babel||[]).push([[45],{9045:(e,t,r)=>{"use strict";function n(){return fetch("https://jsonplaceholder.typicode.com/users/").then((function(e){if(!e.ok)throw Error(e.statusText);return e.json()})).then((function(e){return e}))}r.r(t),r.d(t,{getUsers:()=>n})}}]);

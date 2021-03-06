@@ -1,0 +1,29 @@
+{
+  "name": "typescriptEx",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "i1": "ts-node ./src/interfaces1.ts",
+    "i2": "ts-node ./src/interfaces2.ts",
+    "pr": "ts-node ./src/promises.ts",
+    "gen": "ts-node ./src/generics.ts",
+    "can": "ts-node ./src/cAndIn.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^14.14.31",
+    "@types/node-fetch": "^2.5.8",
+    "and": "0.0.3",
+    "install": "^0.13.0",
+    "node-fetch": "^2.6.1",
+    "npm": "^7.6.0",
+    "ts-node": "^9.1.1"
+  },
+  "dependencies": {
+    "typescript": "^4.2.2"
+  }
+}
